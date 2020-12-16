@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+* {
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Brand';
+    src: url('fonts/Brand.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Aulia Grotesk';
+    src: url('fonts/AuliaGrotesk.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Corbyn Serif';
+    src: url('fonts/CorbynSerif.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Costigue';
+    src: url('fonts/Costigue.ttf') format('truetype');
+}
