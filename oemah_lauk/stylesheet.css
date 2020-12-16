@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+}
+
+* {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+@font-face {
+    font-family: 'Corbyn Serif';
+    src: url('fonts/CorbynSerif.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('fonts/AvenirNext.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Aulia Grotesk';
+    src: url('fonts/AuliaGrotesk.ttf') format('truetype');
+}
+
+.titlebar {
+    left: 0;
+    width: 100%;
+    height: 15rem;
+    background-color: #111111;
+    color: #F2E9DD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titlebar h1 {
+    text-align: center;
+    font-family: 'Corbyn Serif', serif;
+    font-size: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.titlebar p {
+    text-align: center;
+    font-family: 'Corbyn Serif', serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.badge {
+    color: #111111;
+    position: absolute;
+    background: url('badge.svg');
+    width: 10rem;
+    height: 10rem;
+    right: 3rem;
+    top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.badge p {
+    font-size: 1.3rem;
+}
+
+.arrow {
+    position: absolute;
+    left: 0;
+    top: 3rem;
+    width: 8rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transform: rotateZ(90deg);
+}
+
+.arrow div {
+    background-color: #F2E9DD;
+    width: 2rem;
+    height: 0.3rem;
+}
+
+.arrow div:nth-child(1) {
+    transform: rotateZ(40deg) translateX(0.4rem);
+}
+
+.arrow div:nth-child(2) {
+    transform: rotateZ(-40deg) translateX(-0.4rem);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content .title {
+    width: 100%;
+    height: 100vh;
+    background: url('../img/oemah_lauk_2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.desc {
+    color: #111111;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.desc h2 {
+    padding-top: 2rem;
+    font-family: 'Corbyn Serif', serif;
+    font-size: 3rem;
+}
+
+.desc p, td {
+    font-family: 'Avenir Next', sans-serif;
+    font-size: 2rem;
+}
+
+.attribute {
+    width: 13rem;
+}
+
+.color {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.color>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 5rem;
+}
+
+.color>div div {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+}
+
+.color>div p {
+    font-family: 'Aulia Grotesk', sans-serif;
+}
+
+.color>div:nth-child(1) div {
+    background-color: #DAA137;
+}
+
+.color>div:nth-child(1) p {
+    color: #DAA137;
+}
+
+.color>div:nth-child(2) div {
+    background-color: #35473A;
+}
+
+.color>div:nth-child(2) p {
+    color: #35473A;
+}
+
+.color>div:nth-child(3) div {
+    background-color: #EDE4D9;
+}
+
+.color>div:nth-child(3) p {
+    color: #EDE4D9;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery div {
+    margin: 1.5rem 0;
+    width: 100%;
+    background-size: cover;
+}
+
+.gallery div:nth-child(1) {
+    background-image: url('../img/oemah_lauk_3.jpg');
+    background-position: center;
+    height: 70vw;
+}
+
+.gallery div:nth-child(2) {
+    background-image: url('../img/oemah_lauk_4.jpg');
+    background-position: 40% 40%;
+    height: 70vw;
+}
+
+.gallery div:nth-child(3) {
+    background-image: url('../img/oemah_lauk_5.jpg');
+    background-position: 90% 90%;
+    height: 70vw;
+}
+
+.gallery div:nth-child(4) {
+    background-image: url('../img/oemah_lauk_6.jpg');
+    background-position: center;
+    height: 100vw;
+}
+
+.gallery div:nth-child(5) {
+    background-image: url('../img/oemah_lauk_7.jpg');
+    background-position: center;
+    height: 100vw;
+}
+
+.mockup {
+    width: 40vw;
+    height: 40vw;
+    margin: 0 auto;
+    background: url('../img/oemah_lauk_8.jpg');
+    background-size: 180%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sticker {
+    width: 40vw;
+    height: 40vw;
+    margin: 0 auto;
+    background: url('../img/oemah_lauk_9.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nota {
+    width: 40vw;
+    height: 40vw;
+    margin: 0 auto;
+    background: url('../img/oemah_lauk_10.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    margin-top: 6rem;
+    left: 0;
+    width: 100%;
+    height: 12rem;
+    background-color: #111111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer h1 {
+    text-align: center;
+    color: #F2E9DD;
+    font-family: 'Corbyn Serif', serif;
+    font-size: 4rem;
+}
