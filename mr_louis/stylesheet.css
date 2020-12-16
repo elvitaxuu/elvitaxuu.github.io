@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+}
+
+* {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+@font-face {
+    font-family: 'Corbyn Serif';
+    src: url('fonts/CorbynSerif.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('fonts/AvenirNext.ttf') format('truetype');
+}
+
+.titlebar {
+    left: 0;
+    width: 100%;
+    height: 15rem;
+    background-color: #111111;
+    color: #F2E9DD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titlebar h1 {
+    text-align: center;
+    font-family: 'Corbyn Serif', serif;
+    font-size: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.titlebar p {
+    text-align: center;
+    font-family: 'Corbyn Serif', serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.badge {
+    color: #111111;
+    position: absolute;
+    background-color: #F2E9DD;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    right: 3rem;
+    top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow {
+    position: absolute;
+    left: 0;
+    top: 3rem;
+    width: 8rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transform: rotateZ(90deg);
+}
+
+.arrow div {
+    background-color: #F2E9DD;
+    width: 2rem;
+    height: 0.3rem;
+}
+
+.arrow div:nth-child(1) {
+    transform: rotateZ(40deg) translateX(0.4rem);
+}
+
+.arrow div:nth-child(2) {
+    transform: rotateZ(-40deg) translateX(-0.4rem);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.pic1 {
+    width: 100%;
+    height: 130vh;
+    background: url('../img/mr_louis_1.jpg');
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.gallery-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gallery img {
+    padding: 3rem;
+    width: 40vw;
+}
+
+.desc {
+    color: #111111;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.desc h2 {
+    padding-top: 2rem;
+    font-family: 'Corbyn Serif', serif;
+    font-size: 3rem;
+}
+
+.desc p, td {
+    font-family: 'Avenir Next', sans-serif;
+    font-size: 2rem;
+}
+
+.attribute {
+    width: 13rem;
+}
+
+.image {
+    margin: 10rem auto;
+    width: 30rem;
+    height: 30rem;
+    background: url('../img/mr_louis_8.jpg');
+    background-size: 200% 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer {
+    margin-top: 5rem;
+    left: 0;
+    width: 100%;
+    height: 12rem;
+    background-color: #111111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer h1 {
+    text-align: center;
+    color: #F2E9DD;
+    font-family: 'Corbyn Serif', serif;
+    font-size: 4rem;
+}
