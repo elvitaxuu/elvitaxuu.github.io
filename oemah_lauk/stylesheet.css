@@ -13,17 +13,17 @@ a {
 
 @font-face {
     font-family: 'Corbyn Serif';
-    src: url('fonts/CorbynSerif.ttf') format('truetype');
+    src: url('../fonts/CorbynSerif.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Avenir Next';
-    src: url('fonts/AvenirNext.ttf') format('truetype');
+    src: url('../fonts/AvenirNext.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Aulia Grotesk';
-    src: url('fonts/AuliaGrotesk.ttf') format('truetype');
+    src: url('../fonts/AuliaGrotesk.ttf') format('truetype');
 }
 
 .titlebar {
