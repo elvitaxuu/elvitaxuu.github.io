@@ -68,7 +68,8 @@ h1 {
 #page1 .profile-img {
     width: 20rem;
     height: 24rem;
-    background-color: #F2E9DD;
+    background: url('img/elvita.JPG');
+    background-size: cover;
 }
 
 #page1 .profile-txt {
