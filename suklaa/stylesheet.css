@@ -134,6 +134,13 @@ a {
 .desc p, td {
     font-family: 'Avenir Next', sans-serif;
     font-size: 2rem;
+    text-align: justify;
+}
+
+.desc .text {
+    width: 30vw;
+    height: 30vw;
+    background: url("../suklaa_text.svg");
 }
 
 .desc .image {
