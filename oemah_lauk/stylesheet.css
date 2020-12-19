@@ -125,6 +125,7 @@ a {
 .desc p, td {
     font-family: 'Avenir Next', sans-serif;
     font-size: 2rem;
+    text-align: justify;
 }
 
 .attribute {

@@ -102,6 +102,7 @@ h1 {
     font-size: 0.95rem;
     letter-spacing: 0.1rem;
     line-height: 185%;
+    text-align: justify;
 }
 
 #page1 .arrow {
